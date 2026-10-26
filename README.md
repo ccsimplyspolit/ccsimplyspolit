@@ -7,7 +7,7 @@ Focus: C/C++ Memory Safety, Binary Protocol Fuzzing (`libFuzzer` / `libprotobuf-
 - **ORCID:** [0009-0002-4183-0361](https://orcid.org/0009-0002-4183-0361)
 - **GitHub:** [@ccsimplyspolit](https://github.com/ccsimplyspolit)
 - **HackerOne:** [https://hackerone.com/sshunko](https://hackerone.com/sshunko)
-- **Contact & Coordinated Disclosure:** `sshunko@gmail.com`
+- **Contact & Coordinated Disclosure:** `cc.simply.spolit@gmail.com`
 
 ---
 
