@@ -46,6 +46,11 @@
 | **CVD-2026-CPYTHON-001** | `python/cpython` | Integer attribute validation in HTTP cookie parsing and truncated binary catalog bounds checks. (`CWE-20 / CWE-755`) | `Embargoed (Vendor Triage)` |
 | **CVD-2026-PHP-001** | `php/php-src` | Cross-origin port comparison and error-path URI buffer cleanup in HTTP redirect handling. (`CWE-601 / CWE-200 / CWE-401`) | `Embargoed (Vendor Triage)` |
 | **CVD-2026-REDIS-001** | `redis/redis` | Integer width preservation and unsigned length bounds checking in binary cluster packet extensions. (`CWE-681 / CWE-191 / CWE-125`) | `Embargoed (Vendor Triage)` |
+| **CVD-2026-NOTION-MCP-001** | `makenotion/notion-mcp-server` | Multipart upload path canonicalization and session token binding in HTTP transport. (`CWE-22 / CWE-73 / CWE-384`) | `Embargoed (Vendor Triage)` |
+| **CVD-2026-PAYPAL-AGENT-001** | `paypal/agent-toolkit` | Resource identifier validation and URL path segment encoding in REST tool handlers. (`CWE-20 / CWE-22 / CWE-285`) | `Embargoed (Vendor Triage)` |
+| **CVD-2026-VERCEL-SKILLS-001** | `vercel-labs/skills` | Symbolic link target containment verification during skill directory installation. (`CWE-59 / CWE-22`) | `Embargoed (Vendor Triage)` |
+| **CVD-2026-TWILIO-MCP-001** | `twilio-labs/mcp` | Path parameter URL encoding in OpenAPI interpolation and upload path validation. (`CWE-22 / CWE-285`) | `Embargoed (Vendor Triage)` |
+| **CVD-2026-SAMLSHIELD-001** | `stytchauth/samlshield` | Timestamp NaN validation and subject element cardinality checks in SAML assertion verification. (`CWE-287 / CWE-20`) | `Embargoed (Vendor Triage)` |
 | **CVD-2026-GOOSE-001** | `block/goose` | Workspace directory path containment and fail-closed authorization list parsing in gateway handlers. (`CWE-22 / CWE-284 / CWE-863`) | `Embargoed (Vendor Triage)` |
 | **CVD-2026-CLOUDFLARE-MCP-001** | `cloudflare/mcp-server-cloudflare` | URI scheme allowlisting and consent state validation in OAuth authorization helpers. (`CWE-79 / CWE-20 / CWE-863`) | `Embargoed (Vendor Triage)` |
 | **CVD-2026-MATTERMOST-AI-001** | `mattermost/mattermost-plugin-ai` | Attachment channel authorization and caller identity verification in bridge message handlers. (`CWE-862 / CWE-863 / CWE-400`) | `Embargoed (Vendor Triage)` |
