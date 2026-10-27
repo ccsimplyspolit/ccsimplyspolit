@@ -1,4 +1,4 @@
-# Serhii Shunko (`@sshunko` / `@ccsimplyspolit`)
+# Serhii Shunko (`@ccsimplyspolit`)
 
 **Independent Systems & Binary Security Researcher**  
 I audit C/C++ network and media parsers, embeddable bytecode VMs, and AI/MCP server infrastructure for memory-safety and input-validation bugs. My day-to-day work pairs static source and binary analysis with structure-aware fuzzing (`libFuzzer`, `libprotobuf-mutator`, ASan/UBSan) to turn parser state-machine edge cases into deterministic reproducers and clean upstream fixes.
