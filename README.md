@@ -12,7 +12,7 @@
 [![X/Twitter](https://img.shields.io/badge/X-@SergeyccShunko-black?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SergeyccShunko)
 
 <p align="center">
-  <b>17 Verified GHSAs & Upstream Fixes</b> • <b>3 CERN/Zenodo Research DOIs</b> • <b>100% Upstream Remediation Rate</b> • <b>Coordinated Vulnerability Disclosure (CVD)</b>
+  <b>19 Published GHSAs & Upstream Fixes</b> • <b>3 CERN/Zenodo Research DOIs</b> • <b>100% Upstream Remediation Rate</b> • <b>Coordinated Vulnerability Disclosure (CVD)</b>
 </p>
 
 </div>
@@ -29,7 +29,7 @@ I specialize in **vulnerability research, binary reverse engineering, and automa
    - Security boundaries in LLM tool execution runtimes and Agentic pipelines.
    - Server-Side Request Forgery (SSRF) bypasses (trailing dots, octal/hex IP evasion, IPv6 bracket escaping, DNS rebinding).
    - Tool-call path traversal, schema poisoning, and arbitrary process execution in agent workspaces.
-   - *Key Discoveries:* GitHub Agentic Workflows (`GHSA-796w-fvw2-ccmp`), Salesforce B2C MCP (`GHSA-g52w-56c5-674f`), n8n MCP Server (`GHSA-qm7x-j9xp-x3gv`), Infomaniak kChat MCP (`GHSA-x9vx-8c8r-c57x`), Amadeus AI Hub (`GHSA-phrf-cwfr-v2rw`).
+   - *Key Discoveries:* GitHub Agentic Workflows (`GHSA-796w-fvw2-ccmp`), Salesforce B2C MCP (`GHSA-g52w-56c5-674f`), n8n MCP Server (`GHSA-qm7x-j9xp-x3gv`), Infomaniak kChat MCP (`GHSA-x9vx-8c8r-c57x`).
 
 2. **🛡️ Memory Safety & Bounds Auditing (C/C++)**
    - Integer underflows/overflows (`CWE-190`, `CWE-191`), off-by-one pointer arithmetic, and unbounded loops (`CWE-835`).
@@ -44,7 +44,7 @@ I specialize in **vulnerability research, binary reverse engineering, and automa
 
 ---
 
-## 🏆 Verified GitHub Security Advisories (13 Core GHSAs Matrix)
+## 🏆 Verified GitHub Security Advisories (13 Published GHSAs Matrix)
 
 > **Coordinated Vulnerability Disclosure (CVD) Mandate:** All listed advisories have been formally accepted by maintainers, patched upstream, or awarded security bounties. Zero undisclosed 0-days are published.
 
@@ -61,12 +61,14 @@ I specialize in **vulnerability research, binary reverse engineering, and automa
 | 9 | `GHSA-x9vx-8c8r-c57x` | **Infomaniak/mcp-server-kchat** (MCP) | Unvalidated `username` Parameter Path Traversal (`CWE-22` / `CWE-88`) | ![Medium](https://img.shields.io/badge/Medium%205.4-d97706?style=flat-square) | Fixed in `v1.1.1` ([Merged PR #70](https://github.com/Infomaniak/mcp-server-kchat/pull/70)) | [GHSA Advisory](https://github.com/Infomaniak/mcp-server-kchat/security/advisories/GHSA-x9vx-8c8r-c57x) |
 | 10 | `GHSA-6hh9-gpj4-cr69` | **moonlight-stream/moonlight-common-c** | Missing `IDX_DS_ADAPTIVE_TRIGGERS` Sentinel in Packet Tables (`CWE-125` / `CWE-908`) | ![Medium](https://img.shields.io/badge/Medium-d97706?style=flat-square) | Fixed on Master ([Merged PR #168](https://github.com/moonlight-stream/moonlight-common-c/pull/168)) | [GHSA Advisory](https://github.com/moonlight-stream/moonlight-common-c/security/advisories/GHSA-6hh9-gpj4-cr69) |
 | 11 | `GHSA-cr23-59mg-h2rc` | **bacnet-stack/bacnet-stack** (ICS / SCADA) | Pre-Auth Infinite Loop & OOB Read via Negative Decode Length (`CWE-125` / `CWE-835`) | ![High](https://img.shields.io/badge/High-dc2626?style=flat-square) | Accepted into Draft • Fix in [PR #1595](https://github.com/bacnet-stack/bacnet-stack/pull/1595) | [GHSA Advisory](https://github.com/bacnet-stack/bacnet-stack/security/advisories/GHSA-cr23-59mg-h2rc) |
-| 12 | `GHSA-phrf-cwfr-v2rw` | **AmadeusITGroup/ai-primitives-hub** | CSP-Bypassing Webview Script Injection & Path Traversal (`CWE-79` / `CWE-22`) | ![High](https://img.shields.io/badge/High-dc2626?style=flat-square) | Accepted by Maintainer (`draft` GHSA • Remediation Fork) | [GHSA Advisory](https://github.com/AmadeusITGroup/ai-primitives-hub/security/advisories/GHSA-phrf-cwfr-v2rw) |
+| 12 | `GHSA-g275-mf26-qx9r` | **siyuan-note/siyuan** (42k+ ★ Knowledge Base) | Stored XSS Escalating to Arbitrary Code Execution (`CWE-79` / `CWE-94`) | ![Critical](https://img.shields.io/badge/Critical%209.6-7f1d1d?style=flat-square) | Patched in `v3.8.10` | [GHSA Advisory](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-g275-mf26-qx9r) |
+| 13 | `GHSA-r5j2-ghh9-2jqw` | **wailsapp/wails** (27k+ ★ Desktop Framework) | Linux WebKitGTK Script Message Bridge Origin Bypass (`CWE-346`) | ![High](https://img.shields.io/badge/High%208.3-dc2626?style=flat-square) | Patched in `v2.17.1` | [GHSA Advisory](https://github.com/wailsapp/wails/security/advisories/GHSA-r5j2-ghh9-2jqw) |
 
 <details>
 <summary><b>Additional Coordinated Disclosures & Bug Bounties (Click to expand)</b></summary>
 <br>
 
+- **`jdx/mise` (25k+ ★ Dev Tooling):** Safe Mode (`MISE_SAFE=1`) Project Lockfile Trust Bypass (Merged in [PR #15235](https://github.com/jdx/mise/pull/15235)).
 - **`GHSA-xvmx-7qq5-34q6` (COVESA/Open1722):** Out-of-Bounds Read/Write via Unchecked IEEE 1722 ACF Message & CAN Padding Lengths (`Critical 9.1`, Patched in PR #69).
 - **`GHSA-xxpf-vhg6-6873` (FreeRDP/FreeRDP):** Missing SPS NAL Unit Bounds Check in `webcodecs_decompress()` (`Medium`, Patched in PR #13941).
 - **`GHSA-43p9-7988-4jf7` (sisk-http/core):** Documentation Exporter `Origin` / `Host` Header Link Injection (`CWE-644`, Patched in v1.18.2).
