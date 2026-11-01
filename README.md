@@ -12,7 +12,7 @@
 [![X/Twitter](https://img.shields.io/badge/X-@SergeyccShunko-black?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SergeyccShunko)
 
 <p align="center">
-  <b>12 Verified GHSAs</b> • <b>3 CERN/Zenodo Research DOIs</b> • <b>100% Upstream Remediation Rate</b> • <b>Coordinated Vulnerability Disclosure (CVD)</b>
+  <b>17 Verified GHSAs & Upstream Fixes</b> • <b>3 CERN/Zenodo Research DOIs</b> • <b>100% Upstream Remediation Rate</b> • <b>Coordinated Vulnerability Disclosure (CVD)</b>
 </p>
 
 </div>
@@ -44,7 +44,7 @@ I specialize in **vulnerability research, binary reverse engineering, and automa
 
 ---
 
-## 🏆 Verified GitHub Security Advisories (12 Core GHSAs Matrix)
+## 🏆 Verified GitHub Security Advisories (13 Core GHSAs Matrix)
 
 > **Coordinated Vulnerability Disclosure (CVD) Mandate:** All listed advisories have been formally accepted by maintainers, patched upstream, or awarded security bounties. Zero undisclosed 0-days are published.
 
