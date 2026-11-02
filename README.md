@@ -12,7 +12,7 @@
 [![X/Twitter](https://img.shields.io/badge/X-@SergeyccShunko-black?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SergeyccShunko)
 
 <p align="center">
-  <b>9 Published GHSAs &amp; 14+ Upstream Security Fixes</b> • <b>3 CERN/Zenodo Research DOIs</b> • <b>100% Upstream Remediation Rate</b> • <b>Coordinated Vulnerability Disclosure (CVD)</b>
+  <b>11 Published GHSAs &amp; 16+ Upstream Security Fixes</b> • <b>3 CERN/Zenodo Research DOIs</b> • <b>100% Upstream Remediation Rate</b> • <b>Coordinated Vulnerability Disclosure (CVD)</b>
 </p>
 
 </div>
@@ -29,7 +29,7 @@ I specialize in **vulnerability research, binary reverse engineering, and automa
    - Security boundaries in LLM tool execution runtimes and Agentic pipelines.
    - Server-Side Request Forgery (SSRF) bypasses (trailing dots, octal/hex IP evasion, IPv6 bracket escaping, DNS rebinding).
    - Tool-call path traversal, schema poisoning, and arbitrary process execution in agent workspaces.
-   - *Key Discoveries:* Salesforce B2C MCP (`GHSA-g52w-56c5-674f`), n8n MCP Server (`GHSA-qm7x-j9xp-x3gv`), Infomaniak kChat MCP (`GHSA-x9vx-8c8r-c57x`), SiYuan AttributeView (`GHSA-g275-mf26-qx9r`).
+   - *Key Discoveries:* Electerm Built-in MCP Server (`GHSA-45rj-2wq9-r9mr`), Salesforce B2C MCP (`GHSA-g52w-56c5-674f`), n8n MCP Server (`GHSA-qm7x-j9xp-x3gv`), Infomaniak kChat MCP (`GHSA-x9vx-8c8r-c57x`), SiYuan AttributeView (`GHSA-g275-mf26-qx9r`).
 
 2. **🛡️ Memory Safety & Bounds Auditing (C/C++)**
    - Integer underflows/overflows (`CWE-190`, `CWE-191`), off-by-one pointer arithmetic, and unbounded loops (`CWE-835`).
@@ -44,21 +44,23 @@ I specialize in **vulnerability research, binary reverse engineering, and automa
 
 ---
 
-## 🏆 Verified GitHub Security Advisories (9 Published GHSAs Matrix)
+## 🏆 Verified GitHub Security Advisories (11 Published GHSAs Matrix)
 
 > **Coordinated Vulnerability Disclosure (CVD) Mandate:** All listed advisories have been formally accepted by maintainers, patched upstream, or awarded security bounties under ISO/IEC 29147 responsible disclosure standards. Zero undisclosed 0-days are published.
 
 | # | GHSA ID | Affected Target | Vulnerability Type & CWE | Severity | Upstream Fix / Remediation | Advisory Link |
 |:---:|:---|:---|:---|:---:|:---|:---:|
-| 1 | `GHSA-j7g2-gm7j-mfvm` | **MobSF/Mobile-Security-Framework-MobSF** | Pre-extraction symlink mode stripping bypass in OS unzip fallback (`CWE-59` / `CWE-755`) | ![Low 3.1](https://img.shields.io/badge/Low%203.1-0284c7?style=flat-square) | Patched in `v4.6.5` ([PR #2766](https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2766)) | [GHSA Advisory](https://github.com/MobSF/Mobile-Security-Framework-MobSF/security/advisories/GHSA-j7g2-gm7j-mfvm) |
-| 2 | `GHSA-g275-mf26-qx9r` | **siyuan-note/siyuan** (42k+ ★ Knowledge Base) | Stored XSS Escalating to Arbitrary Code Execution (`CWE-79` / `CWE-94`) | ![Critical 9.6](https://img.shields.io/badge/Critical%209.6-7f1d1d?style=flat-square) | Patched in `v3.8.10` | [GHSA Advisory](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-g275-mf26-qx9r) |
+| 1 | `GHSA-g275-mf26-qx9r` | **siyuan-note/siyuan** (42k+ ★ Knowledge Base) | Stored XSS Escalating to Arbitrary Code Execution (`CWE-79` / `CWE-94`) | ![Critical 9.6](https://img.shields.io/badge/Critical%209.6-7f1d1d?style=flat-square) | Patched in `v3.8.10` | [GHSA Advisory](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-g275-mf26-qx9r) |
+| 2 | `GHSA-45rj-2wq9-r9mr` | **electerm/electerm** (17k+ ★ Terminal / SSH Client) | Built-in MCP HTTP Server DNS Rebinding to Remote Code Execution (`CWE-306` / `CWE-346` / `CWE-350`) | ![High 8.8](https://img.shields.io/badge/High%208.8-dc2626?style=flat-square) | Patched in `> 5.8.1` (`v5.8.2`) | [GHSA Advisory](https://github.com/electerm/electerm/security/advisories/GHSA-45rj-2wq9-r9mr) |
 | 3 | `GHSA-r5j2-ghh9-2jqw` | **wailsapp/wails** (27k+ ★ Desktop Framework) | Linux WebKitGTK Script Message Bridge Origin Bypass (`CWE-284` / `CWE-346`) | ![High 8.3](https://img.shields.io/badge/High%208.3-dc2626?style=flat-square) | Patched in `v2.17.1` | [GHSA Advisory](https://github.com/wailsapp/wails/security/advisories/GHSA-r5j2-ghh9-2jqw) |
 | 4 | `GHSA-qr8h-p53p-x564` | **ossrs/srs** (Simple Realtime Server) | RTC Crash & Heap Overflow from Malformed RTCP Packet (`CWE-125` / `CWE-191` / `CWE-835`) | ![High 8.2](https://img.shields.io/badge/High%208.2-dc2626?style=flat-square) | Fixed in `v6.0.194` ([PR #4669](https://github.com/ossrs/srs/pull/4669)) | [GHSA Advisory](https://github.com/ossrs/srs/security/advisories/GHSA-qr8h-p53p-x564) |
 | 5 | `GHSA-pvw7-7j8c-qx96` | **opensensor/lightNVR** (Go2RTC Video Proxy) | Authorization Bypass via Pre-Decode Query Truncation (`CWE-285` / `CWE-416`) | ![High 8.1](https://img.shields.io/badge/High%208.1-dc2626?style=flat-square) | Patched in `v0.44.3` ([Commit 507bce1c07](https://github.com/opensensor/lightNVR/commit/507bce1c07)) | [GHSA Advisory](https://github.com/opensensor/lightNVR/security/advisories/GHSA-pvw7-7j8c-qx96) |
 | 6 | `GHSA-g52w-56c5-674f` | **SalesforceCommerceCloud** (b2c-developer-tooling) | Path Containment Omission in MCP Tooling (`CWE-22` / Path Traversal) | ![High 7.1](https://img.shields.io/badge/High%207.1-dc2626?style=flat-square) | Fixed in `@salesforce/b2c-dx-mcp@3.9.0` ([PR #828](https://github.com/SalesforceCommerceCloud/b2c-developer-tooling/pull/828)) | [GHSA Advisory](https://github.com/SalesforceCommerceCloud/b2c-developer-tooling/security/advisories/GHSA-g52w-56c5-674f) |
-| 7 | `GHSA-4x7j-8w5q-5f7w` | **ntop/nDPI** (Deep Packet Inspection) | DCE/RPC Fragment Length Bypass & DHCP Offset Clamping (`CWE-670`) | ![Moderate 5.3](https://img.shields.io/badge/Moderate%205.3-d97706?style=flat-square) | Fixed in Commit [`ff44ed2`](https://github.com/ntop/nDPI/commit/ff44ed2) | [GHSA Advisory](https://github.com/ntop/nDPI/security/advisories/GHSA-4x7j-8w5q-5f7w) |
-| 8 | `GHSA-hw42-92fr-x9vc` | **LTplus-AG/ifc-lite** (BIM / STEP Parser) | STEP Record Injection via Unvalidated Type Names (`CWE-74` / Injection) | ![Moderate 5.3](https://img.shields.io/badge/Moderate%205.3-d97706?style=flat-square) | Patched in `@ifc-lite/export@4.13.1` | [GHSA Advisory](https://github.com/LTplus-AG/ifc-lite/security/advisories/GHSA-hw42-92fr-x9vc) |
-| 9 | `GHSA-qm7x-j9xp-x3gv` | **czlonkowski/n8n-mcp** (Model Context Protocol) | SSRF Protection Bypass via Trailing-Dot & `*.localhost` (`CWE-918` / `CWE-184`) | ![Low 3.1](https://img.shields.io/badge/Low%203.1-0284c7?style=flat-square) | Fixed in `v2.99.2` ([Commit a49dfb4](https://github.com/czlonkowski/n8n-mcp/commit/a49dfb4)) | [GHSA Advisory](https://github.com/czlonkowski/n8n-mcp/security/advisories/GHSA-qm7x-j9xp-x3gv) |
+| 7 | `GHSA-8885-xrq4-j47h` | **wekan/wekan** (20k+ ★ Open-Source Kanban) | Cross-Board Checklist Disclosure & Streaming CSV/TSV Export Policy Bypass (`CWE-359` / `CWE-639` / `CWE-863`) | ![Moderate 5.3](https://img.shields.io/badge/Moderate%205.3-d97706?style=flat-square) | Patched in `v12.78` | [GHSA Advisory](https://github.com/wekan/wekan/security/advisories/GHSA-8885-xrq4-j47h) |
+| 8 | `GHSA-4x7j-8w5q-5f7w` | **ntop/nDPI** (Deep Packet Inspection) | DCE/RPC Fragment Length Bypass & DHCP Offset Clamping (`CWE-670`) | ![Moderate 5.3](https://img.shields.io/badge/Moderate%205.3-d97706?style=flat-square) | Fixed in Commit [`ff44ed2`](https://github.com/ntop/nDPI/commit/ff44ed2) | [GHSA Advisory](https://github.com/ntop/nDPI/security/advisories/GHSA-4x7j-8w5q-5f7w) |
+| 9 | `GHSA-hw42-92fr-x9vc` | **LTplus-AG/ifc-lite** (BIM / STEP Parser) | STEP Record Injection via Unvalidated Type Names (`CWE-74` / Injection) | ![Moderate 5.3](https://img.shields.io/badge/Moderate%205.3-d97706?style=flat-square) | Patched in `@ifc-lite/export@4.13.1` | [GHSA Advisory](https://github.com/LTplus-AG/ifc-lite/security/advisories/GHSA-hw42-92fr-x9vc) |
+| 10 | `GHSA-j7g2-gm7j-mfvm` | **MobSF/Mobile-Security-Framework-MobSF** (18k+ ★) | Pre-extraction symlink mode stripping bypass in OS unzip fallback (`CWE-59` / `CWE-755`) | ![Low 3.1](https://img.shields.io/badge/Low%203.1-0284c7?style=flat-square) | Patched in `v4.6.5` ([PR #2766](https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2766)) | [GHSA Advisory](https://github.com/MobSF/Mobile-Security-Framework-MobSF/security/advisories/GHSA-j7g2-gm7j-mfvm) • [Write-up](https://ccsimplyspolit.github.io/writeups/mobsf-zip-parser-differential.html) |
+| 11 | `GHSA-qm7x-j9xp-x3gv` | **czlonkowski/n8n-mcp** (Model Context Protocol) | Hostname Validation Bypass via Trailing-Dot & `*.localhost` (`CWE-918` / `CWE-184`) | ![Low 3.1](https://img.shields.io/badge/Low%203.1-0284c7?style=flat-square) | Fixed in `v2.99.2` ([Commit a49dfb4](https://github.com/czlonkowski/n8n-mcp/commit/a49dfb4)) | [GHSA Advisory](https://github.com/czlonkowski/n8n-mcp/security/advisories/GHSA-qm7x-j9xp-x3gv) |
 
 <details>
 <summary><b>Additional Coordinated Disclosures & Bug Bounties (Click to expand)</b></summary>
