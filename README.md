@@ -47,7 +47,7 @@ I hunt parser bugs, reverse-engineer stripped firmware and native binaries, and 
 
 ## `03 //` Verified Vulnerability Disclosures (12 GHSAs & CVD Matrix)
 
-> **Coordinated Vulnerability Disclosure (CVD) Mandate:** All listed advisories have been formally accepted by maintainers, patched upstream, or awarded security bounties under **ISO/IEC 29147** responsible disclosure standards. Zero uncoordinated 0-days are published.
+> Every bug listed below was reported privately to the maintainers first and published only after an upstream fix shipped. I always include a minimal reproducer and a ready-to-merge patch with every report.
 
 | # | Advisory ID | Affected Target | Vulnerability Class & CWE | CVSS / Severity | Upstream Remediation | Advisory & Write-up |
 |:---:|:---|:---|:---|:---:|:---|:---:|
@@ -87,11 +87,11 @@ I hunt parser bugs, reverse-engineer stripped firmware and native binaries, and 
 
 ---
 
-## `05 //` Coordinated Vulnerability Disclosure Policy & PGP
+## `05 //` Disclosure & Contact
 
-All vulnerability research is conducted in strict compliance with **ISO/IEC 29147** and **ISO/IEC 30111** Coordinated Vulnerability Disclosure guidelines:
-- Vendors receive complete root-cause analysis, deterministic minimal reproducers, CWE/CVSS v3.1/v4.0 mappings, and ready-to-merge remediation patches.
-- A standard 90-day disclosure window is observed prior to public advisory publication.
+If you maintain an open-source project and want to reach me about a bug report or patch, drop me an email (PGP key below).
+- Every report comes with a minimal reproducer, root-cause write-up, and a proposed fix.
+- I follow a standard 90-day disclosure window and coordinate release timing with maintainers.
 
 ```text
 Contact Email    : cc.simply.spolit@gmail.com
@@ -122,5 +122,5 @@ F3a4B5c6D7e8F9a0B1c2D3e4F5a6B7c8D9e0F1a2B3c4D5e6F7a8B9c0D1e2F3a4
 ---
 
 <div align="center">
-  <sub>© 2026 Serhii Shunko (<code>@ccsimplyspolit</code>) · Systems &amp; Binary Security Research Lab · ISO/IEC 29147 CVD Compliant</sub>
+  <sub>© 2026 Serhii Shunko (<code>@ccsimplyspolit</code>) · Systems &amp; Binary Security Research</sub>
 </div>
