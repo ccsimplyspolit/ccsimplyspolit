@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 250" width="100%" height="100%">
+  <rect width="1080" height="250" rx="10" fill="#0b0e14" stroke="#1f293d" stroke-width="1.5"/>
+  <line x1="540" y1="24" x2="540" y2="226" stroke="#1f293d" stroke-width="1"/>
+
+  <!-- Left Column: Vulnerability Class Distribution -->
+  <rect x="36" y="28" width="3" height="12" fill="#38bdf8"/>
+  <text x="48" y="39" fill="#38bdf8" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="600" letter-spacing="1.4">VULNERABILITY TELEMETRY BY CLASS (16 UPSTREAM FIXES)</text>
+
+  <!-- Row 1 -->
+  <text x="36" y="74" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13.5" font-weight="500">Memory Bounds &amp; Deserialization (CWE-125 / 191 / 908)</text>
+  <text x="504" y="74" fill="#38bdf8" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="600" text-anchor="end">37.5%</text>
+  <rect x="36" y="83" width="468" height="6" rx="3" fill="#111622"/>
+  <rect x="36" y="83" width="195" height="6" rx="3" fill="#38bdf8"/>
+
+  <!-- Row 2 -->
+  <text x="36" y="118" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13.5" font-weight="500">AI Agent &amp; MCP Protocol Boundaries (CWE-918 / 350 / 22)</text>
+  <text x="504" y="118" fill="#34d399" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="600" text-anchor="end">31.2%</text>
+  <rect x="36" y="127" width="468" height="6" rx="3" fill="#111622"/>
+  <rect x="36" y="127" width="162" height="6" rx="3" fill="#34d399"/>
+
+  <!-- Row 3 -->
+  <text x="36" y="162" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13.5" font-weight="500">WebView, IPC &amp; Auth Policy Bypasses (CWE-79 / 284 / 863)</text>
+  <text x="504" y="162" fill="#fbbf24" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="600" text-anchor="end">18.8%</text>
+  <rect x="36" y="171" width="468" height="6" rx="3" fill="#111622"/>
+  <rect x="36" y="171" width="98" height="6" rx="3" fill="#fbbf24"/>
+
+  <!-- Row 4 -->
+  <text x="36" y="206" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13.5" font-weight="500">DPI, Archive Differentials &amp; Parser Loops (CWE-670 / 835)</text>
+  <text x="504" y="206" fill="#94a3b8" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="600" text-anchor="end">12.5%</text>
+  <rect x="36" y="215" width="468" height="6" rx="3" fill="#111622"/>
+  <rect x="36" y="215" width="65" height="6" rx="3" fill="#94a3b8"/>
+
+  <!-- Right Column: Primary Languages & Binary Targets -->
+  <rect x="576" y="28" width="3" height="12" fill="#34d399"/>
+  <text x="588" y="39" fill="#34d399" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="600" letter-spacing="1.4">ENGINEERING &amp; REVERSE-ENGINEERING STACK</text>
+
+  <!-- Stack Item 1 -->
+  <text x="576" y="74" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13.5" font-weight="500">C / C++20 &amp; LibFuzzer / ASan / UBSan Harnesses</text>
+  <text x="1044" y="74" fill="#38bdf8" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="600" text-anchor="end">34%</text>
+  <rect x="576" y="83" width="468" height="6" rx="3" fill="#111622"/>
+  <rect x="576" y="83" width="180" height="6" rx="3" fill="#38bdf8"/>
+
+  <!-- Stack Item 2 -->
+  <text x="576" y="118" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13.5" font-weight="500">Python 3 Static AST Auditors &amp; SARIF v2.1.0 Tooling</text>
+  <text x="1044" y="118" fill="#34d399" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="600" text-anchor="end">30%</text>
+  <rect x="576" y="127" width="468" height="6" rx="3" fill="#111622"/>
+  <rect x="576" y="127" width="156" height="6" rx="3" fill="#34d399"/>
+
+  <!-- Stack Item 3 -->
+  <text x="576" y="162" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13.5" font-weight="500">MIPS32 / x86_64 PE32+ Kernel &amp; Binary Patching (IDA)</text>
+  <text x="1044" y="162" fill="#fbbf24" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="600" text-anchor="end">22%</text>
+  <rect x="576" y="171" width="468" height="6" rx="3" fill="#111622"/>
+  <rect x="576" y="171" width="115" height="6" rx="3" fill="#fbbf24"/>
+
+  <!-- Stack Item 4 -->
+  <text x="576" y="206" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13.5" font-weight="500">TypeScript / Node.js / WebAssembly &amp; Protobuf Wire</text>
+  <text x="1044" y="206" fill="#94a3b8" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="600" text-anchor="end">14%</text>
+  <rect x="576" y="215" width="468" height="6" rx="3" fill="#111622"/>
+  <rect x="576" y="215" width="74" height="6" rx="3" fill="#94a3b8"/>
+</svg>
