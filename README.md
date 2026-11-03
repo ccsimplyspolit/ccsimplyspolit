@@ -21,7 +21,7 @@
 
 ## `01 //` Research Focus & Methodology
 
-I specialize in **vulnerability research, binary reverse engineering, embedded kernel/RF firmware auditing, and automated defensive static analysis** across critical network infrastructure, multimedia engines, and autonomous AI agent protocols. My workflow combines AST-driven schema and source auditing with structure-aware mutation fuzzing (`libFuzzer`, `libprotobuf-mutator`, ASan/UBSan) and full-binary reconstruction (IDA Pro, Hex-Rays, Capstone/Unicorn) to isolate deterministic state-machine violations and ship upstream fixes.
+I hunt parser bugs, reverse-engineer stripped firmware and native binaries, and build static analysis tools that catch state-machine and memory-bounds flaws before they hit production. Most of my days are spent pairing AST/schema analyzers with structure-aware fuzzers (`libFuzzer`, `libprotobuf-mutator`, ASan/UBSan) and full-binary reconstruction in IDA Pro, Hex-Rays, and Capstone/Unicorn — isolating deterministic reproducers and shipping upstream patches.
 
 | Domain | Technical Scope | Representative Upstream Work |
 |:---|:---|:---|
