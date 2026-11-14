@@ -10,6 +10,8 @@ I'm an independent security researcher in Dnipro, Ukraine. I look for two kinds 
 
 Reports go privately through each project's own channel, with a local reproducer and a proposed fix. The maintainers decide when to publish.
 
+**Open to work and collaboration:** security research, code audits, joint research. Contact: cc.simply.spolit@gmail.com or LinkedIn.
+
 ## Published advisories
 
 Maintainers have published 19 GitHub Security Advisories that credit me as reporter. None has a CVE ID yet. Updated 14 November 2026.
@@ -44,6 +46,6 @@ Maintainers have published 19 GitHub Security Advisories that credit me as repor
 
 ## Elsewhere
 
-[HackerOne](https://hackerone.com/sshunko) · [Bugcrowd](https://bugcrowd.com/h/sshunko) · [LinkedIn](https://www.linkedin.com/in/sshunko/) · [X](https://x.com/SergeyccShunko) · [ORCID](https://orcid.org/0009-0002-4183-0361) · [ccsimplyspolit.github.io](https://ccsimplyspolit.github.io)
+[HackerOne](https://hackerone.com/sshunko) · [Bugcrowd](https://bugcrowd.com/h/sshunko) · [LinkedIn](https://www.linkedin.com/in/sshunko/) · [X](https://x.com/SergeyccShunko) · [Hack The Box](https://profile.hackthebox.com/profile/01a1870a-af62-71f3-9c71-f16d5804faec) · [GitLab](https://gitlab.com/ccsimplyspolit) · [ORCID](https://orcid.org/0009-0002-4183-0361) · [ccsimplyspolit.github.io](https://ccsimplyspolit.github.io)
 
 Security contact: cc.simply.spolit@gmail.com
