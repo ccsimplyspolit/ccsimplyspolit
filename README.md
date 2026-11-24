@@ -14,11 +14,11 @@ Reports go privately through each project's own channel, with a local reproducer
 
 ## Published advisories
 
-Maintainers have published 19 GitHub Security Advisories that credit me as reporter. None has a CVE ID yet. Updated 14 November 2026.
+Maintainers have published 24 GitHub Security Advisories that credit me as reporter (1 CVE assigned so far: [CVE-2026-130680](https://www.cve.org/CVERecord?id=CVE-2026-130680)). Updated 24 November 2026.
 
 | Project | Advisory | Severity | Issue | Fixed in |
 |:--|:--|:--|:--|:--|
-| siyuan-note/siyuan | [GHSA-g275-mf26-qx9r](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-g275-mf26-qx9r) | Critical | Stored XSS escalating to code execution via an unescaped checkbox column name | 3.8.10 |
+| siyuan-note/siyuan | [GHSA-g275-mf26-qx9r](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-g275-mf26-qx9r) · [CVE-2026-130680](https://www.cve.org/CVERecord?id=CVE-2026-130680) | Critical | Stored XSS escalating to code execution via an unescaped checkbox column name | 3.8.10 |
 | opf/openproject | [GHSA-9c69-v342-vqr7](https://github.com/opf/openproject/security/advisories/GHSA-9c69-v342-vqr7) | Critical | Arbitrary zero-argument method call on visible projects via an unvalidated attribute | 17.5.2, 17.6.1, 17.7.3, 17.8.2, 17.9.7 |
 | mastodon/mastodon | [GHSA-3xjw-gv43-3w62](https://github.com/mastodon/mastodon/security/advisories/GHSA-3xjw-gv43-3w62) | High | Password verification bypass when logging into inactive accounts | 4.7.5, 5.0.0-alpha.4 |
 | electerm/electerm | [GHSA-45rj-2wq9-r9mr](https://github.com/electerm/electerm/security/advisories/GHSA-45rj-2wq9-r9mr) | High | Built-in MCP HTTP server accepts requests without Host and Origin checks | after 5.8.1 |
@@ -30,13 +30,18 @@ Maintainers have published 19 GitHub Security Advisories that credit me as repor
 | opensensor/lightNVR | [GHSA-pvw7-7j8c-qx96](https://github.com/opensensor/lightNVR/security/advisories/GHSA-pvw7-7j8c-qx96) | High | Authorization bypass via query-parameter truncation before decoding | after 0.44.1 |
 | SalesforceCommerceCloud/b2c-developer-tooling | [GHSA-g52w-56c5-674f](https://github.com/SalesforceCommerceCloud/b2c-developer-tooling/security/advisories/GHSA-g52w-56c5-674f) | High | Missing path containment in the B2C DX MCP server | 3.9.0 |
 | github/gh-aw | [GHSA-796w-fvw2-ccmp](https://github.com/github/gh-aw/security/advisories/GHSA-796w-fvw2-ccmp) | High | Predictable, non-exclusive `.tmp` file write that keeps permissive modes | 1.2.0 |
+| sebastienrousseau/pain001-mcp | [GHSA-hqw7-q8v2-pq3m](https://github.com/sebastienrousseau/pain001-mcp/security/advisories/GHSA-hqw7-q8v2-pq3m) | High | `commit_payment_batch` writes to any path behind a token returned to the same caller | 0.0.80 |
 | containers/kubernetes-mcp-server | [GHSA-xq9m-mrj7-jv98](https://github.com/containers/kubernetes-mcp-server/security/advisories/GHSA-xq9m-mrj7-jv98) | Moderate | Kiali toolset status probes can leak the bearer token | 0.1.2 |
 | wekan/wekan | [GHSA-8885-xrq4-j47h](https://github.com/wekan/wekan/security/advisories/GHSA-8885-xrq4-j47h) | Moderate | Cross-board checklist disclosure in scoped board export | 12.78 |
 | ntop/nDPI | [GHSA-4x7j-8w5q-5f7w](https://github.com/ntop/nDPI/security/advisories/GHSA-4x7j-8w5q-5f7w) | Moderate | Inverted NDR endianness flag in DCE/RPC fragment length | dev branch, before release |
 | LTplus-AG/ifc-lite | [GHSA-hw42-92fr-x9vc](https://github.com/LTplus-AG/ifc-lite/security/advisories/GHSA-hw42-92fr-x9vc) | Moderate | STEP record injection via unvalidated type names in the mutation writer | 4.13.1 |
 | hellobertrand/zxc | [GHSA-6r4j-7r6c-xf94](https://github.com/hellobertrand/zxc/security/advisories/GHSA-6r4j-7r6c-xf94) | Moderate | Integer overflow and 32-bit offset truncation in dictionary training | 1.0.0 |
+| karakeep-app/karakeep | [GHSA-94f3-j5c2-m8pq](https://github.com/karakeep-app/karakeep/security/advisories/GHSA-94f3-j5c2-m8pq) | Moderate | Collaborative list merge copies collaborator-owned bookmarks with `listMembershipId = NULL`, bypassing ownership and revocation | 0.35.0 |
+| 0xJacky/nginx-ui | [GHSA-8mrc-pvvv-f7p8](https://github.com/0xJacky/nginx-ui/security/advisories/GHSA-8mrc-pvvv-f7p8) | Moderate | Nginx `include` directive validation bypass via `glob(3)` vs `filepath.Glob` character-class mismatch | 2.9.4 |
 | MobSF/Mobile-Security-Framework-MobSF | [GHSA-j7g2-gm7j-mfvm](https://github.com/MobSF/Mobile-Security-Framework-MobSF/security/advisories/GHSA-j7g2-gm7j-mfvm) | Low | Symlink mode stripping bypass in the OS unzip fallback | 4.6.5 |
 | czlonkowski/n8n-mcp | [GHSA-qm7x-j9xp-x3gv](https://github.com/czlonkowski/n8n-mcp/security/advisories/GHSA-qm7x-j9xp-x3gv) | Low | SSRF hostname checks skipped trailing-dot and `*.localhost` names | 2.99.2 |
+| Shopify/async-memcached | [GHSA-f9wj-cj54-79vv](https://github.com/Shopify/async-memcached/security/advisories/GHSA-f9wj-cj54-79vv) | Low | Meta flag token injection (`GHSA-4g85-prqm-87qp` bypass) and empty key/opaque desynchronization | 0.11.0 |
+| COVESA/Open1722 | [GHSA-xvmx-7qq5-34q6](https://github.com/COVESA/Open1722/security/advisories/GHSA-xvmx-7qq5-34q6) | Low | Unsigned 16-bit integer wraparound and out-of-bounds read in `Avtp_Vss_CalcVssPathLength()` | 0.9.8 |
 
 ## Tools
 
